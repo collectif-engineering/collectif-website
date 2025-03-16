@@ -1,0 +1,673 @@
+interface SeedPortfolio {
+    id: number;
+    title: string;
+    client: string;
+    description: string;
+    category: string;
+    photoCredit: string;
+    architect: string;
+    location: string;
+    article: string;
+    images: string[];
+}
+
+interface SeedData {
+    portfolio: SeedPortfolio[],
+}
+
+export const portfolioData: SeedData = {
+    portfolio: [
+        {
+            id: 1,
+            title: "Popup Bagels",
+            client: "Popup Bagels",
+            description: "COLLECTIF designed the MEP systems of 2 existing retail spaces, one on the Upper West Side and one on the Upper East Side. The design required a robust MEP system to support fast, continuous, and efficient on-site daily bagel production.",
+            category: "Commercial",
+            photoCredit: "n/a",
+            architect: "Ideal Consulting Group",
+            location: "New York, New York",
+            article: "https://www.entrepreneur.com/growing-a-business/popup-bagels-secret-recipe-for-viral-success-in-nyc-and/481381",
+            images: 
+            [
+                'PopupBagels-1.jpg',
+                'PopupBagels-2.jpg',
+                'PopupBagels-3.jpg',
+                'PopupBagels-4.jpg',
+                'PopupBagels-5.jpg',
+                'PopupBagels-6.jpg'
+            ]
+        },
+        {
+            id: 2,
+            title: "Élan Artists",
+            client: "Élan Artists",
+            description: "COLLECTIF  designed the HVAC, electrical, and sprinkler systems of an entertainment, performance, and headliner production company's 5000 sq. ft. headquarters in NYC.",
+            category: "Commercial",
+            photoCredit: "Ideal Consulting Group",
+            architect: "Ideal Consulting Group",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                'ElanArtists-1.jpg',
+                'ElanArtists-2.jpg',
+                'ElanArtists-3.jpg',
+                'ElanArtists-4.jpg',
+                'ElanArtists-5.jpg',
+                'ElanArtists-6.jpg',
+                'ElanArtists-7.jpg',
+                'ElanArtists-8.jpg',
+                'ElanArtists-9.jpg',
+                'ElanArtists-10.jpg',
+                'ElanArtists-11.jpg'
+            ]
+        },
+        {
+            id: 3,
+            title: "CitizenM Hotels",
+            client: "CitizenM Hotels",
+            description: "Construction Management and commissioning for a heating and ventilation remediation project in Miami, FL. COLLECTIF managed the MEP design and prepared bid packages and narratives for bids to multiple contractors. Our firm also managed the construction schedule through the two phases of the project, coordinated with the owner and controls contractor for new BMS integration of the changeover heating system, and reprogrammed custom guestroom controllers. \nOther involvements in the project include commissioning the hydronic and ventilation systems, accepting the system on behalf of the owner, and training the building operations team in using the system. The project was delivered on budget and on time to the client.",
+            category: "Construction Management",
+            photoCredit: "",
+            architect: "",
+            location: "Miami, Florida",
+            article: "",
+            images: 
+            [
+                'citizenm-1.jpg',
+                'citizenm-2.jpg',
+                'citizenm-3.jpg',
+                'citizenm-4.jpg',
+                'citizenm-5.jpg',
+                'citizenm-denver-1.jpg',
+                'citizenm-denver-2.jpg',
+                'citizenm-denver-3.jpg',
+                'citizenm-georgetown-1.jpg',
+                'citizenm-georgetown-2.jpg',
+                'citizenm-georgetown-3.jpg',
+                'citizenm-georgetown-4.jpg',
+                'citizenm-miami-wc-1.jpg',
+                'citizenm-miami-wc-2.jpg',
+                'citizenm-miami-wc-3.jpg',
+                'citizenm-miami-wc-4.jpg',
+                'citizenm-sandiego-1.jpg',
+                'citizenm-sandiego-2.jpg',
+                'citizenm-sandiego-3.jpg'
+            ]
+        },
+        {
+            id: 4,
+            title: "450 W 31st Street",
+            client: "Venmel, LLC",
+            description: "The COLLECTIF team led the MEP/FP systems for the fitout of the 8th floor (7,600 GSF) within an existing building in Manhattan. The new space houses three demised corporate offices.",
+            category: "Corporate",
+            photoCredit: "Venmel",
+            architect: "Colberg Architecture",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                '31street-1.jpg',
+                '31street-2.jpg',
+                '31street-3.jpg',
+                '31street-4.jpg',
+                '31street-5.jpg',
+                '31street-6.jpg',
+                '31street-7.jpg',
+                '31street-8.jpg',
+                '31street-9.jpg',
+                '31street-10.jpg',
+                '31street-11.jpg',
+                '31street-12.jpg',
+            ]
+        },
+        {
+            id: 5,
+            title: "2 9th avenue corporate offices",
+            client: "Aurora Capital",
+            description: "The COLLECTIF team led the design of MEP/FP systems for the renovation of office floors 2-6 (30,00 USF; one tenant per floor) & two lobbies (400 USF) in an existing Meatpacking District low rise building in Manhattan. Once tenants started signing their leases, the COLLECTIF team worked with each of the tenant's Interior Designers to design of each space to fit their needs. In addition to the MEP office fit out, the team is working on designing a bar / restaurant space in the basement and assisting Aurora on any other MEP upgrades to the building.",
+            category: "Corporate",
+            photoCredit: "n/a",
+            architect: "Colberg Architecture",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                'aurora-1.jpg',
+                'aurora-2.jpg',
+                'aurora-3.jpg',
+                'aurora-4.jpg',
+                'aurora-5.jpg',
+                'aurora-6.jpg',
+                'aurora-7.jpg',
+            ]
+        },
+        {
+            id: 6,
+            title: "Technological Cinevideo Services Headquarters",
+            client: "TCS",
+            description: "MEP design and filing services for a 20,000 sqft office, camera testing facilities and warehouse space for TCS at 77 Brooklyn Navy Yard. TCS specializes in renting & servicing professional motion picture equipment.",
+            category: "Corporate",
+            photoCredit: "",
+            architect: "Colberg Architecture",
+            location: "Brooklyn, New York",
+            article: "",
+            images: 
+            [
+                'TCS-1.jpg',
+                'TCS-2.jpg',
+                'TCS-3.jpg',
+                'TCS-4.jpg',
+                'TCS-5.jpg',
+                'TCS-6.jpg',
+                'TCS-7.jpg',
+                'TCS-8.jpg',
+                'TCS-9.jpg',
+                'TCS-10.jpg',
+                'TCS-11.jpg'
+            ]
+        },
+        {
+            id: 7,
+            title: "Melkonian Capital Headquarters ",
+            client: "Melkonian Capital ",
+            description: "A new office floor and rooftop penthouse built on top of an existing high rise in Manhattan. Corporate interiors renovation of two existing floors. Total project area of roughly 25,000 sqft.\nDesign of new MEP/FP systems to serve the new floor office addition (roughly 7,000 SQFT), renovation of the existing 8th & 12th floor (roughly 7,000 SQFT each) and a new penthouse rooftop level (roughly 3,600 SQFT of indoor and outdoor space).",
+            category: "Corporate",
+            photoCredit: "",
+            architect: "Colberg Architecture",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                'melknian-1.jpg'
+            ]
+        },
+        {
+            id: 8,
+            title: "10 Eyck Street Production Studio",
+            client: "Chemistry Creative",
+            description: "The COLLECTIF engineering team led the mechanical design for a highly versatile 2,200 square foot production studio space in Williamsburg, Brooklyn.",
+            category: "Cultural",
+            photoCredit: "",
+            architect: "ASK Consulting & Construction Management",
+            location: "Brooklyn, New York",
+            article: "",
+            images: 
+            [
+                '10-eyck-street-1.jpg',
+                '10-eyck-street-2.jpg'
+            ]
+        },
+        {
+            id: 9,
+            title: "70 Mulberry Cultural Center",
+            client: "NYC Division of Public Buildings",
+            description: "Following a devastating fire in 2020, the City of New York is in the process of rebuilding 70 Mulberry Street to house community resources. COLLECTIF Engineering led the MEP-FP interior fitout design for approximately 33,000 GSF of the building, consisting of new cafeteria and dining spaces, offices, meeting rooms, community rooms, theater, classrooms and dance studios.",
+            category: "Cultural",
+            photoCredit: "Grimshaw",
+            architect: "Grimshaw",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                '70-mulberry-1.jpg',
+                '70-mulberry-2.jpg',
+                '70-mulberry-3.jpg'
+            ]
+        },
+        {
+            id: 10,
+            title: "ClearChoice",
+            client: "ClearChoice Dental",
+            description: "MEP/FP design and filing services for a 6,700 sqft, Dental Office Renovation in Brooklyn, NY.",
+            category: "Healthcare",
+            photoCredit: "",
+            architect: "101 Architect",
+            location: "Brooklyn, New York",
+            article: "",
+            images: 
+            [
+                'clearchoice-1.jpg',
+                'clearchoice-2.jpg'
+            ]
+        },
+        {
+            id: 11,
+            title: "Horta - Santini | Ophthalmological Clinic",
+            client: "Horta - Santini | Ophthalmological Clinic",
+            description: "MEP-FA consulting and design services for the conversion of an existing office space into an ophthalmological clinic. The renovated medical space is roughly 4,500 sqft and contains exam rooms, consultation rooms, a waiting room and employee amenity rooms. Concealed ductwork and diffusers serve the waiting room, providing a clean and fully integrated design.",
+            category: "Healthcare",
+            photoCredit: "",
+            architect: "Studio Rodar",
+            location: "Bronx, New York",
+            article: "",
+            images: 
+            [
+                'hortasantini-1.jpg',
+                'hortasantini-2.jpg'
+            ]
+        },
+        {
+            id: 12,
+            title: "CITIZENM HOTELS - NORTH AMERICA",
+            client: "CitizenM Hotels",
+            description: "COLLECTIF Engineering led the MEP-FP design for all new hotel buildings in North America, including:\nGeorgetown, Washington DC:\n88,000 square feet adaptive reuse hotel. The building consists of 234 guestrooms, fitness center, lobby, bars, conference rooms and associated support spaces.\nSan Diego, CA:\n119,000 square feet ground up hotel. The building consists of 302 guestrooms, fitness center, lobby, bars, rooftop pool, conference rooms and associated support spaces.\nDenver, CO:\n109,000 square feet ground up hotel. The building consists of 267 guestrooms, fitness center, lobby, bars, conference rooms and associated support spaces. This project was delivered via design build.",
+            category: "Hospitality",
+            photoCredit: "Baskervill",
+            architect: "Baskervill",
+            location: "Various",
+            article: "",
+            images: 
+            [
+                'citizenm-1.jpg',
+                'citizenm-2.jpg',
+                'citizenm-3.jpg',
+                'citizenm-4.jpg',
+                'citizenm-5.jpg',
+                'citizenm-denver-1.jpg',
+                'citizenm-denver-2.jpg',
+                'citizenm-denver-3.jpg',
+                'citizenm-georgetown-1.jpg',
+                'citizenm-georgetown-2.jpg',
+                'citizenm-georgetown-3.jpg',
+                'citizenm-georgetown-4.jpg',
+                'citizenm-miami-wc-1.jpg',
+                'citizenm-miami-wc-2.jpg',
+                'citizenm-miami-wc-3.jpg',
+                'citizenm-miami-wc-4.jpg',
+                'citizenm-sandiego-1.jpg',
+                'citizenm-sandiego-2.jpg',
+                'citizenm-sandiego-3.jpg'  
+            ]
+        },
+        {
+            id: 13,
+            title: "Modulous",
+            client: "Modulous",
+            description: "Modulous aims to help eliminate the global housing deficit while improving industry efficiency, designing out waste and raising quality and performance standards. Designs are based on their proprietary Kit of Parts, which is a series of sub-assemblies procured from the established supply chain that can be  brought together to create modular homes in facilities local to site. COLLECTIF provides MEP Engineering R&D & Design support for Modulous in the United States",
+            category: "Residential",
+            photoCredit: "Modulous",
+            architect: "n/a",
+            location: "n/a",
+            article: "",
+            images: 
+            [
+                'modulous-1.jpg',
+                'modulous-2.jpg',
+                'modulous-3.jpg',
+                'modulous-4.jpg',
+                'modulous-5.jpg',
+                'modulous-6.jpg',
+                'modulous-7.jpg'
+            ]
+        },
+        {
+            id: 14,
+            title: "Central Queen Single-Family Residential",
+            client: "Private",
+            description: "COLLECTIF led the design of MEP-FP systems for the renovation of this single-family house in Central Queens.",
+            category: "Residential",
+            photoCredit: "n/a",
+            architect: "Colberg Architecture",
+            location: "Queens, New York",
+            article: "",
+            images: 
+            [
+                'central-queens-residence-1.jpeg',
+                'central-queens-residence-2.jpeg',
+                'central-queens-residence-3.jpeg',
+                'central-queens-residence-4.jpeg',
+                'central-queens-residence-5.jpeg'
+            ]
+        },
+        {
+            id: 15,
+            title: "Greenwich Village Single-Family Residential",
+            client: "Private",
+            description: "COLLECTIF led the design of MEP/FP systems for the renovation of this single-family 7,300-square-foot townhouse in Lower Manhattan.",
+            category: "Residential",
+            photoCredit: "",
+            architect: "Workshop Design + Architecture\n",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                'greenwich-1.jpg',
+                'greenwich-2.jpg',
+                'greenwich-3.jpg',
+                'greenwich-4.jpg',
+                'greenwich-5.jpg',
+                'greenwich-6.jpg'
+            ]
+        },
+        {
+            id: 16,
+            title: "Trinity Apartments Multi-Family Residential",
+            client: "Trinity Housing",
+            description: "The COLLECTIF engineering team led the MEP design for the renovation of multiple components within the existing residential tower, including the electrical and plumbing systems for 200+ apartments, HVAC and electrical systems to support the replacement of passenger elevators, and the replacement of the building's boiler. COLLECTIF engineering is also performing the code required special inspections.",
+            category: "Residential",
+            photoCredit: "",
+            architect: "MHG Architects, PC",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                'Trinity-House-100-West-92nd-Street-1.jpg'
+            ]
+        },
+        {
+            id: 17,
+            title: "11 Essex Multi-Family Residential",
+            client: "11 Essex Street Realty, LLC",
+            description: "The COLLECTIF team led the MEP-FP design for a new high-rise residential building in downtown Manhattan. The 11 floor 13,000 gross square foot building consists of eight private residences and a white boxed ground floor retail space.",
+            category: "Residential",
+            photoCredit: "Workshop Design + Architecture\n",
+            architect: "Workshop Design + Architecture\n",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                '11-essex-street-04-1.jpg'
+            ]
+        },
+        {
+            id: 18,
+            title: "118 Pinehurst Multi-Family Residential",
+            client: "Hudson View Gardens",
+            description: "The COLLECTIF engineering team led the mechanical design for the phased replacement of campus hot water distribution piping supporting six multi-family residential buildings.",
+            category: "Residential",
+            photoCredit: "",
+            architect: "",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                'pinehurst-1.jpg',
+                'pinehurst-2.jpg',
+                'pinehurst-3.jpg'
+            ]
+        },
+        {
+            id: 19,
+            title: "Jane Street Multi-Family Residential",
+            client: "Private",
+            description: "The COLLECTIF engineering team led the MEP design for a full renovation of a 3-bedroom 2.5-bath Greenwich Village duplex. COLLECTIF is in the process of electrifying the entire building to reduce the overall carbon footprint.",
+            category: "Residential",
+            photoCredit: "AÄ MÄ Studio",
+            architect: "AÄ MÄ Studio",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                'jane-street-1.jpg',
+                'jane-street-2.jpg',
+                'jane-street-3.jpg',
+                'jane-street-4.jpg',
+                'jane-street-5.jpg',
+                'jane-street-6.jpg',
+                'jane-street-7.jpg',
+                'jane-street-8.jpg'
+            ]
+        },
+        {
+            id: 20,
+            title: "Flying Bend",
+            client: "Private",
+            description: "The COLLECTIF team led the design of MEP systems for a new 7,300 square foot modern residence in Irvington, New York, with an emphasis on a high efficiency HVAC design.",
+            category: "Residential",
+            photoCredit: "The Up Studio",
+            architect: "The Up Studio",
+            location: "Hudson Valley, New York",
+            article: "",
+            images: 
+            [
+                'flying-bend-1.jpg',
+                'flying-bend-2.jpg',
+                'flying-bend-3.jpg',
+                'flying-bend-4.jpg',
+                'flying-bend-5.jpg'
+            ]
+        },
+        {
+            id: 21,
+            title: "NevelHaus",
+            client: "JSR Development",
+            description: "MEP consulting and design services for a three-bedroom, 2.5 bathroom, 1800+ square ft. contemporary Catskills cabin.\n",
+            category: "Residential",
+            photoCredit: "Matthew Williams",
+            architect: "INC Architecture & Design",
+            location: "Bethel, New York",
+            article: "https://www.housebeautiful.com/design-inspiration/house-tours/a62736211/mimi-and-hill-stone-ridge-new-york-home-tour/",
+            images: 
+            [
+                'nevelhaus-1.jpg',
+                'nevelhaus-2.jpg',
+                'nevelhaus-3.jpg',
+                'nevelhaus-4.jpg',
+                'nevelhaus-5.jpg'
+            ]
+        },
+        {
+            id: 22,
+            title: "173 Amity Single-Family Residential",
+            client: "Amity SA LLC",
+            description: "A renovation of a (approximately 1,800 GSF), residential apartment in Brooklyn, NY.",
+            category: "Residential",
+            photoCredit: "Selma Akkari",
+            architect: "Selma Akkari",
+            location: "Brooklyn, New York",
+            article: "",
+            images: 
+            [
+                'amity-1.jpg',
+                'amity-2.jpg',
+                'amity-3.jpg',
+                'amity-4.jpg',
+                'amity-5.jpg',
+                'amity-6.jpg',
+                'amity-7.jpg',
+                'amity-8.jpg',
+                'amity-9.jpg',
+                'amity-10.jpg',
+                'amity-11.jpg',
+                'amity-12.jpg',
+                'amity-13.jpg',
+                'amity-14.jpg',
+                'amity-15.jpg',
+                'amity-16.jpg',
+                'amity-17.jpg',
+                'amity-18.jpg',
+                'amity-1.jpg',
+            ]
+        },
+        {
+            id: 23,
+            title: "Separate Together Single-Family Residential",
+            client: "Private",
+            description: "MEP-FP design and filing services for a renovated and new, 6,631 GSF, two story with attic, single family residential building in Queens, NY. A high efficiency HVAC VRF system provides the air conditioning throughout the existing house and new addition. New fireplace and incoming domestic water services.",
+            category: "Residential",
+            photoCredit: "The Up Studio",
+            architect: "The Up Studio",
+            location: "Queens, New York",
+            article: "",
+            images: 
+            [
+                "separate-together-single-family.jpg",
+                "separate-together-single-family2.jpg",
+            ]
+        },
+        {
+            id: 24,
+            title: "Harlem Modular Multi-Family Residential",
+            client: "Private",
+            description: "MEP-FP design and filing services for a new 6,700 GSF, six story, low rise modular condominium building in Manhattan, NY. Fully coordinated with modular construction company in Brooklyn, NY. In production/construction. Substantial completion: March 2020.",
+            category: "Residential",
+            photoCredit: "The Up Studio",
+            architect: "The Up Studio",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                'harlem-modular-1.jpg',
+                'harlem-modular-2.jpg',
+            ]
+        },
+        {
+            id: 25,
+            title: "155 Perry Multi-Family Residential",
+            client: "Private",
+            description: "Design of new HVAC system for a West Village condo renovation. Replacement of existing PTACs with a new VRF system with condensing unit located inside new MER closet in the condo unit. Close coordination with Owner, Architect, equipment vendor and condo board to make this project a reality.",
+            category: "Residential",
+            photoCredit: "WRRH",
+            architect: "WRRH",
+            location: "New York, New York",
+            article: "",
+            images: 
+            [
+                '155-perry-1.jpg',
+                '155-perry-2.jpg',
+                '155-perry-3.jpg'                
+            ]
+        },
+        {
+            id: 26,
+            title: "The Oosten Multi-Family Residential",
+            client: "Xin Development",
+            description: "MEP consulting and design services for and 8 story residential building in Williamsburg. ",
+            category: "Residential",
+            photoCredit: "Think! Architecture and Design",
+            architect: "Think! Architecture and Design",
+            location: "Brooklyn, New York",
+            article: "",
+            images: 
+            [
+                'oosten-1.jpg',
+                'oosten-2.jpg'
+            ]
+        },
+        {
+            id: 27,
+            title: "Skinnyside Modular**",
+            client: "Private",
+            description: "MEP-FP design and filing services for a new three story single family house in Queens, NYC. Modular construction. Ten foot wide ground up construction in an irregular lot. The building is approximately 2,600 gross square feet, consisting of 3 levels and a basement.  A high efficiency HVAC VRF system provides the air conditioning throughout the house. New incoming electrical, sewer and domestic water services. Fully coordinated with the modular construction company in PA.",
+            category: "Residential",
+            photoCredit: "Think! Architecture and Design",
+            architect: "The Up Studio",
+            location: "Queens, New York",
+            article: "",
+            images: 
+            [
+                'skinnyside-1.jpg',
+                'skinnyside-2.jpg',
+                'skinnyside-3.jpg',
+                'skinnyside-4.jpg'
+            ]
+        },
+        {
+            id: 28,
+            title: "LUMBER ROAD APARTMENTS",
+            client: "Lumber Earth Realty",
+            description: "COLLECTIF Engineering provided consulting services for a conversion of a historic lumber yard into a residential apartment building. The building is approximately 8,500 gross square feet, consisting of 5 residential loft units and back of house spaces. A high efficiency HVAC LG VRF system was installed with smart thermostats, for ultimate occupant comfort and control. An energy recovery unit introduces the ventilation into each loft apartment unit, while recovering energy from the toilet exhaust to pre-treat the ventilation air.",
+            category: "Residential",
+            photoCredit: "The Up Studio",
+            architect: "The Up Studio",
+            location: "Roslyn, New York",
+            article: "",
+            images: 
+            [
+                'lumber-1.jpg',
+                'lumber-2.jpg',
+                'lumber-3.jpg',
+                'lumber-4.jpg',
+                'lumber-5.jpg'
+            ]
+        },
+        {
+            id: 29,
+            title: "Blank Street Coffee ",
+            client: "Blank Street Coffee",
+            description: "MEP Filing and Design services for a new coffee shop at 178 Court Street, Brooklyn, NY. MEP Construction Administration Services for a new coffee shop at 178 Court Street, Brooklyn, NY.",
+            category: "Retail",
+            photoCredit: "",
+            architect: "Colberg Architecture",
+            location: "Brooklyn, New York",
+            article: "",
+            images: 
+            [
+                'blank-coffe-1.jpg',
+                'blank-coffe-2.jpg'
+            ]
+        },
+        {
+            id: 30,
+            title: "Shen Beauty",
+            client: "Shen Beauty",
+            description: "MEP consulting, design & filing services for Shen Beauty's flagship store in Brooklyn. The space consists of a retail space and five treatment rooms. A high efficiency HVAC VRF system provides the air conditioning in the store. Linear diffusers used throughout the space to make the air conditioning virtually disappear, while providing a comfortable space for the clients.",
+            category: "Retail",
+            photoCredit: "",
+            architect: "Architect: Office of Collaborative Architecture LLC         \nInterior Design / Branding\nMythology",
+            location: "Brooklyn, New York",
+            article: "",
+            images: 
+            [
+                'shen-1.jpeg',
+                'shen-2.jpeg',
+                'shen-3.jpeg',
+                'shen-4.jpeg',
+                'shen-5.jpeg',
+                'shen-6.jpeg',
+                'shen-7.jpeg',
+                'shen-8.jpg',
+                'shen-9.jpg',
+            ]
+        },
+        {
+            id: 31,
+            title: "(Malin+Goetz)",
+            client: "(Malin+Goetz)",
+            description: "MEP consulting, design & filing services for the newest Malin+Goetz Brooklyn apothecary. A high efficiency HVAC VRF system & hot water radiators provide the air conditioning in the store. Linear diffusers used throughout the space to make the air conditioning virtually disappear, while providing a comfortable space for the clients.",
+            category: "Retail",
+            photoCredit: "A+i",
+            architect: "A+i",
+            location: "Brooklyn, New York",
+            article: "",
+            images: 
+            [
+                'malingoetz-1.jpg',
+                'malingoetz-2.jpg',
+                'malingoetz-3.jpeg',
+                'malingoetz-4.jpeg',
+                'malingoetz-5.jpeg',
+                'malingoetz-6.jpeg',
+            ]
+        },
+        {
+            id: 32,
+            title: "Bathhouse 1 & 2",
+            client: "Bathhouse",
+            description: "Bathhouse is a wellness destination with two locations in New York: Williamsburg, Brooklyn, and Flatiron District in Manhattan. Collectif designed the new mechanical system to serve the further retail expansion and any back-of-house spaces in its 25,000 GSF Williamsburg location. \nFor the Flatiron location, Bathhouse acquired 36,000 square feet of underground parking garage within an existing building, which was converted into occupiable spaces consisting of spas, banyas, saunas and office spaces. COLLECTIF Engineering led the design of the MEP systems and supporting infrastructure. The mechanical system consists of variable refrigerant flow systems. The domestic hot water and pools are preheated with waste heat from the air conditioning system and supplemented by waste heat generated by an adjacent Bitcoin mining operation.",
+            category: "Wellness",
+            photoCredit: "Adrian Gaut",
+            architect: "Colberg Architecture",
+            location: "Brooklyn, New York & Manhattan, NY",
+            article: "https://www.forbes.com/sites/melissakravitz/2024/01/11/a-bathhouse-with-bitcoin-heated-pools-opens-in-nyc/?sh=3f0229ee773f ",
+            images: 
+            [
+                'bathouse-manhattan-1.jpg',
+                'bathouse-manhattan-2.jpg',
+                'bathouse-manhattan-3.jpg',
+                'bathouse-manhattan-4.jpg',
+                'bathouse-manhattan-5.jpg',
+                'bathouse-manhattan-6.jpg',
+                'bathouse-manhattan-7.jpg',
+                'bathouse-manhattan-8.jpg',
+                'bathouse-manhattan-9.jpg',
+                'bathhouse-brooklyn-1.jpg',
+                'bathhouse-brooklyn-2.jpg',
+                'bathhouse-brooklyn-3.jpg',
+                'bathhouse-brooklyn-4.jpg',
+                'bathhouse-brooklyn-5.jpg'
+            ]
+        }
+    ]
+}

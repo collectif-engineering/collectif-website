@@ -1,0 +1,105 @@
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  .cardContainer {
+    width: 96%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+     border-top: 3px solid var(--color-collectif-violet);
+    border-right: 3px solid var(--color-collectif-violet);
+    border-left: 3px solid var(--color-collectif-violet);
+    border-radius: 20px 20px 0 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .firstSectionCard {
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+  }
+
+  .SecondSectionCard {
+    width: 60%;
+    height: 100%;
+  }
+
+  .followUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+  .socialMedia {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .contactUs {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .address {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .titleAddress {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .titleFollowUs {
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    color: var(--color-collectif-pink);
+  }
+
+  .logo:hover {
+    color: var(--color-collectif-violet);
+  }
+
+  .show {
+    animation: translateInUp 0.5s forwards;
+  }
+  .hide {
+    animation: translateOutDown 0.5s forwards;
+  }
+
+  @keyframes translateInUp {
+    from {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes translateOutDown {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+  }

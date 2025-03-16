@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.firstSection {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.secondSection { 
+    width: 100%;
+    height: 100%;;
+    padding: 40px;
+    /* background-color: wheat; */
+}
+
+.thirdSection {
+    width: 100%;
+    height: 100%;;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: aqua; */
+}
+
+.text_1,
+.text_2,
+.text_3 {
+    display: flex;
+    flex-direction: start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.thirdSectionText {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.titleText {
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+.movementText {
+    width: 68%;
+}
+
+.secondaryText {
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .secondaryText {
+      background-image: linear-gradient(
+        to right,
+        #EB3BB9,
+        #EB3BB9,
+        #27474E,
+        #5FC2A1,
+        #5FC2A1,
+        #255e4b,
+        #EB3BB9
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      background-size: var(--bg-size);
+      animation: animate 10s linear infinite reverse;
+    }
+}
+
+@keyframes animate {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: var(--bg-size);
+    }
+    }

@@ -1,0 +1,4 @@
+export * from './portfolio.interface'
+export * from './team.interface'
+export * from './whyus.interface'
+export * from './studios.interface'
