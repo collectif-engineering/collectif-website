@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import { Portfolio } from '@/interfaces';
 import { PortfolioGridItem } from './PortfolioGridItem';
 import { motion } from 'framer-motion';
@@ -7,13 +9,21 @@ import { roboto } from "@/config/fonts";
 
 interface Props {
     dataPortfolio: Portfolio[],
+    selectedCategory: string,
 }
 
-export const ProductGrid = ({ dataPortfolio }: Props) => {
-  const [visibleCount, setVisibleCount] = useState(4); // Cantidad inicial de elementos
+export const ProductGrid = ({ dataPortfolio, selectedCategory }: Props) => {
+
+
+  const [visibleCount, setVisibleCount] = useState(3);
+
+  useEffect(() => {
+    const newCount = selectedCategory === 'all' ? 3 : dataPortfolio.length;
+    setVisibleCount(newCount);
+  }, [selectedCategory, dataPortfolio]);
 
   const handleShowMore = () => {
-    setVisibleCount((prev) => prev + 4); // Muestra 4 más
+    setVisibleCount((prev) => prev + 3);
   };
 
   return (
@@ -33,8 +43,7 @@ export const ProductGrid = ({ dataPortfolio }: Props) => {
         ))}
       </div>
 
-      {/* Botón "Show More" solo si hay más elementos */}
-    {visibleCount < dataPortfolio.length && (
+    {selectedCategory === 'all' && visibleCount < dataPortfolio.length && (
       <div>
         <div 
           className="group m-3 w-[70px] h-[70px] rounded-full overflow-hidden outline-none hover:rotate-90 duration-300 cursor-pointer"

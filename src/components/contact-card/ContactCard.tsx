@@ -9,6 +9,10 @@ import Image from "next/image";
 
 const ContactCard = () => {
   const [isVisible, setIsVisible] = useState(false);
+
+  const todayDate = new Date()
+  const year = todayDate.getFullYear()
+  console.log('year', year)
   useEffect(() => {
     const handleScroll = () => {
       if (
@@ -57,7 +61,7 @@ const ContactCard = () => {
                     </a>
                   </div>
                   <p className={styles.descriptionLeftSideText}>
-                    Copyright © 2024 COLLECTIF Engineering PLLC
+                    {`Copyright © ${year} COLLECTIF Engineering PLLC`}
                   </p>
               </div>
           </div>
