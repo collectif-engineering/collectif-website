@@ -12,7 +12,6 @@ const ContactCard = () => {
 
   const todayDate = new Date()
   const year = todayDate.getFullYear()
-  console.log('year', year)
   useEffect(() => {
     const handleScroll = () => {
       if (
