@@ -36,6 +36,7 @@
     flex-direction: column;
     gap: 20px;
     padding-top: 20px;
+    margin-left: 10px;
   }
 
   .socialMedia {
@@ -60,7 +61,8 @@
   .titleAddress {
     font-size: 1.1rem;
     font-weight: 600;
-  }
+    margin-bottom: 12px;
+}
 
   .titleFollowUs {
     font-size: 1.2rem;
@@ -79,6 +81,24 @@
   }
   .hide {
     animation: translateOutDown 0.5s forwards;
+  }
+
+  .mainTextBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .gridText {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
   }
 
   @keyframes translateInUp {

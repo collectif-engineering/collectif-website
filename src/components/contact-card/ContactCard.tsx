@@ -3,9 +3,7 @@ import React, { useEffect, useState } from "react";
 import styles from "@/styles/contact.module.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
-// import { roboto } from "@/config/fonts";
 import Image from "next/image";
-// import { p } from "framer-motion/client";
 
 const ContactCard = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,9 +31,9 @@ const ContactCard = () => {
       <div className={`${styles.cardContainer} ${isVisible ? styles.show : styles.hide}`} >
           <div className={styles.firstSectionCard}>
               <Image 
-                width={1000}
-                height={1000}
-                src={`/contact/MEP2.png`}
+                width={300}
+                height={300}
+                src={`/contact/logo-contact.png`}
                 alt={'mep-logo'}
                 className="object-fill"
               />
@@ -85,19 +83,27 @@ const ContactCard = () => {
               <div className={`${styles.address} ${'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'}`}>
                 <div>
                   <p className={styles.titleAddress}>NEW YORK</p>
-                  <p>27 W 20th Street Suite 204 New York, NY 10001</p>
+                  <p> 27 W 20th Street </p>
+                  <p> Suite 204 </p> 
+                  <p> New York, NY 10001 </p>
                 </div>
                 <div>
                   <p className={styles.titleAddress}>SAN JUAN</p>
-                  <p>1607 Ave. Ponce de Leon STE GME 6 San Juan, PR 00909</p>
+                  <p> 1607 Ave. Ponce de Leon </p> 
+                  <p> STE GME 6 </p> 
+                  <p> San Juan, PR 00909 </p>
                 </div>
                 <div>
                   <p className={styles.titleAddress}>MIAMI</p>
-                  <p>701 Brickell Ave Suite 1550 Miami, FL 33131</p>
+                  <p> 701 Brickell Ave </p>
+                  <p> Suite 1550 </p>
+                  <p> Miami, FL 33131</p>
                 </div>
                 <div>
                   <p className={styles.titleAddress}>NEW JERSEY</p>
-                  <p>1585 Springfield Ave Suite 2 Maplewood, NJ 07040</p>
+                  <p> 1585 Springfield Ave </p>
+                  <p> Suite 2 </p>
+                  <p> Maplewood, NJ 07040</p>
                 </div>
               </div>
           </div>
