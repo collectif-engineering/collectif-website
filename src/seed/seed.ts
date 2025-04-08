@@ -670,7 +670,7 @@ export const portfolioData: SeedData = {
             ]
         },
         {
-            id: 32,
+            id: 33,
             title: "Brick Breaker Residence",
             client: "Private",
             description: "MEP consulting, design & filing services for a townhouse renovation in the Upper East Side. Nestled between the serene East River and Central Park, Brick Breaker Townhouse blends a timeless townhouse renovation with a new modern addition. The architecture and interiors combine to revitalize the historic property while simultaneously extending into new, bespoke areas of the home. A high-efficiency HVAC VRF system & radiant floors provide heating and cooling for the building. Linear diffusers are used throughout the space to integrate seamlessly with the interior design.",
@@ -681,12 +681,11 @@ export const portfolioData: SeedData = {
             article: "",
             images: 
             [
-                'malingoetz-1.jpg',
-                'malingoetz-2.jpg',
-                'malingoetz-3.jpeg',
-                'malingoetz-4.jpeg',
-                'malingoetz-5.jpeg',
-                'malingoetz-6.jpeg',
+                'brickbreaker-1.jpg',
+                'brickbreaker-2.jpg',
+                'brickbreaker-3.jpeg',
+                'brickbreaker-4.jpeg',
+                'brickbreaker-5.jpeg',
             ]
         }
     ]
