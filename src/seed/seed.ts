@@ -396,6 +396,7 @@ export const portfolioData: SeedData = {
             images: 
             [
                 '11-essex-street-04-1.jpg'
+                '11-essex-street-02.jpg'
             ]
         },
         {
