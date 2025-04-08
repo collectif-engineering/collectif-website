@@ -593,7 +593,7 @@ export const portfolioData: SeedData = {
         },
         {
             id: 29,
-            title: "LUMBER ROAD APARTMENTS",
+            title: "Lumber Road Apartments",
             client: "Lumber Earth Realty",
             description: "COLLECTIF Engineering provided consulting services for a conversion of a historic lumber yard into a residential apartment building. The building is approximately 8,500 gross square feet, consisting of 5 residential loft units and back of house spaces. A high efficiency HVAC LG VRF system was installed with smart thermostats, for ultimate occupant comfort and control. An energy recovery unit introduces the ventilation into each loft apartment unit, while recovering energy from the toilet exhaust to pre-treat the ventilation air.",
             category: "Residential",
