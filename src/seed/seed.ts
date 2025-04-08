@@ -683,9 +683,9 @@ export const portfolioData: SeedData = {
             [
                 'brickbreaker-1.jpg',
                 'brickbreaker-2.jpg',
-                'brickbreaker-3.jpeg',
-                'brickbreaker-4.jpeg',
-                'brickbreaker-5.jpeg',
+                'brickbreaker-3.jpg',
+                'brickbreaker-4.jpg',
+                'brickbreaker-5.jpg',
             ]
         }
     ]
