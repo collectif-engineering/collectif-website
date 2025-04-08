@@ -151,9 +151,9 @@ export const portfolioData: SeedData = {
         },
         {
             id: 6,
-            title: "2 9th avenue corporate offices",
+            title: "2 9th Avenue Corporate Offices",
             client: "Aurora Capital",
-            description: "The COLLECTIF team led the design of MEP/FP systems for the renovation of office floors 2-6 (30,00 USF; one tenant per floor) & two lobbies (400 USF) in an existing Meatpacking District low rise building in Manhattan. Once tenants started signing their leases, the COLLECTIF team worked with each of the tenant's Interior Designers to design of each space to fit their needs. In addition to the MEP office fit out, the team is working on designing a bar / restaurant space in the basement and assisting Aurora on any other MEP upgrades to the building.",
+            description: "COLLECTIF team led the design of MEP/FP systems for the renovation of office floors 2-6 (30,00 USF; one tenant per floor) & two lobbies (400 USF) in an existing Meatpacking District low rise building in Manhattan. Once tenants started signing their leases, the COLLECTIF team worked with each of the tenant's Interior Designers to design of each space to fit their needs. In addition to the MEP office fit out, the team is working on designing a bar / restaurant space in the basement and assisting Aurora on any other MEP upgrades to the building.",
             category: "Corporate",
             photoCredit: "n/a",
             architect: "Colberg Architecture",
