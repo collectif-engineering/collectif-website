@@ -277,7 +277,7 @@ export const portfolioData: SeedData = {
         },
         {
             id: 13,
-            title: "CITIZENM HOTELS - NORTH AMERICA",
+            title: "CitizenM Hotels - North America",
             client: "CitizenM Hotels",
             description: "COLLECTIF Engineering led the MEP-FP design for all new hotel buildings in North America, including:\nGeorgetown, Washington DC:\n88,000 square feet adaptive reuse hotel. The building consists of 234 guestrooms, fitness center, lobby, bars, conference rooms and associated support spaces.\nSan Diego, CA:\n119,000 square feet ground up hotel. The building consists of 302 guestrooms, fitness center, lobby, bars, rooftop pool, conference rooms and associated support spaces.\nDenver, CO:\n109,000 square feet ground up hotel. The building consists of 267 guestrooms, fitness center, lobby, bars, conference rooms and associated support spaces. This project was delivered via design build.",
             category: "Hospitality",
