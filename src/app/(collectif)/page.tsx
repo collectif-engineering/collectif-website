@@ -4,6 +4,7 @@ import Portfolio from './portfolio/page'
 import Contact from './contact/page'
 import About from './about/page'
 import styles from '@/styles/screen.module.css'
+import Culture from './culture/page'
 
 export default function page() {
   return (
@@ -17,7 +18,10 @@ export default function page() {
       <div className={styles.section2}>
       <Portfolio />
       </div>
-      <div className={styles.section3}>
+      <div className={styles.section3}> 
+        <Culture />
+      </div>
+      <div className={styles.section4}>
       <Contact />
       </div>
     </>

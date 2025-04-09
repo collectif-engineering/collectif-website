@@ -1,0 +1,122 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.secondaryText {
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .secondaryText {
+      background-image: linear-gradient(
+        to right,
+        #EB3BB9,
+        #EB3BB9,
+        #27474E,
+        #5FC2A1,
+        #5FC2A1,
+        #255e4b,
+        #EB3BB9
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      background-size: var(--bg-size);
+      animation: animate 10s linear infinite reverse;
+    }
+}
+@keyframes animate {
+  from {
+      background-position: 0;
+  }
+  to {
+      background-position: var(--bg-size);
+  }
+  }
+
+
+
+.containerCulture {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 6rem;
+}
+
+.headerCultureleftBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.headerCulturerightBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.firstColumn, .secondColumn {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.imageInColumn {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.divideColumn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; 
+}
+
+.textInDivideColumn {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.imageInDivideColumn {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.culturePartnerSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; /* Espacio entre header y columnas */
+  padding: 20px;
+}
+
+.titleCulturePartnerSection {
+  font-size: 1.8rem;
+}
+
+/* Tamaño grande (lg) */
+@media (max-width: 640px) {
+  .containerCulture {
+    padding: 2rem;
+  }
+  
+}

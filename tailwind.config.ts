@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        pinkCustom: "var(--color-collectif-pink)"
       },
       fontSize: {
         'custom-size': 'var(--custom-font-size)',

@@ -14,7 +14,7 @@ const ContactCard = () => {
     const handleScroll = () => {
       if (
         window.innerHeight + window.scrollY >=
-        document.body.offsetHeight - 200
+        document.body.offsetHeight - 300
       ) {
         setIsVisible(true);
       } else {
@@ -65,10 +65,10 @@ const ContactCard = () => {
           <div className={styles.SecondSectionCard}>
               <div className={styles.contactUs}>
                 <h1 className={styles.titleAddress}>CONTACT US</h1>
-                <p>
+                <span className={styles.textContent}>
                   Whether you are embarking on a new development or renovating an existing space, drop us
                   a line. Let’s design the future together.
-                </p>
+                </span>
                  <a
                     href={`mailto:connect@collectif.nyc`}
                     target="_blank"

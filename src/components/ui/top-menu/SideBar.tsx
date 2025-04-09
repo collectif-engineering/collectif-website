@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useUIStore } from "@/store";
-import { IoHomeOutline, IoBriefcaseOutline } from "react-icons/io5"
+import { IoHomeOutline, IoBriefcaseOutline, IoPersonOutline } from "react-icons/io5"
 // import { BsPersonGear } from "react-icons/bs";
 import { FaRegHandshake } from "react-icons/fa";
 import { FaHelmetSafety } from "react-icons/fa6";
@@ -75,26 +75,26 @@ export const SideBar = () => {
                     <FaHelmetSafety 
                         size={ 20 }
                     />
-                    <span className="ml-3 text-ml">About</span>
+                    <span className="ml-3 text-ml">Studio</span>
                 </Link>
                 <Link 
-                    href="#portfolio"
+                    href="#work"
                     className="flex items-center mt-8 p-2 hover:bg-gray-100 rounded transition-all"
                 >
                     <IoBriefcaseOutline 
                         size={ 20 }
                     />
-                    <span className="ml-3 text-ml">Portfolio</span>
+                    <span className="ml-3 text-ml">Works</span>
                 </Link>
-                {/* <Link 
-                    href="#team"
+                <Link 
+                    href="#culture"
                     className="flex items-center mt-8 p-2 hover:bg-gray-100 rounded transition-all"
                 >
                     <IoPersonOutline 
                         size={ 20 }
                     />
-                    <span className="ml-3 text-ml">Team</span>
-                </Link> */}
+                    <span className="ml-3 text-ml">Culture</span>
+                </Link>
                 <Link 
                     href="#contact"
                     className="flex items-center mt-8 p-2 hover:bg-gray-100 rounded transition-all"

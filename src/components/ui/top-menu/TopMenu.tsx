@@ -59,9 +59,10 @@ export const TopMenu = () => {
           <div className={styles.linksContainer}>
             <div className="hidden md:block xl:block">
               <div className={styles.firstRowLinkSection}>
-                <Link className={`${roboto.className} ${styles.textLink}`} href="/">Home</Link>
-                <Link className={`${roboto.className} ${styles.textLink}`} href="#about">About Us</Link>
-                <Link className={`${roboto.className} ${styles.textLink}`} href="#portfolio">Portfolio</Link>
+                {/* <Link className={`${roboto.className} ${styles.textLink}`} href="/">Home</Link> */}
+                <Link className={`${roboto.className} ${styles.textLink}`} href="#studio">Studio</Link>
+                <Link className={`${roboto.className} ${styles.textLink}`} href="#work">Work</Link>
+                <Link className={`${roboto.className} ${styles.textLink}`} href="#culture">Culture</Link>
                 <Link className={`${roboto.className} ${styles.textLink}`} href="#contact">Contact</Link>
               </div>
             </div>
