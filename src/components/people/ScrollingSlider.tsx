@@ -31,6 +31,7 @@ const ScrollingSlider = ({
         <div className={reverse ? styles.list : styles.list2}>
 
           {teamImages.map((image, index) => (
+            console.log('image', image),
             <div
               key={index}
               className={reverse ? styles.item : styles.item2}
