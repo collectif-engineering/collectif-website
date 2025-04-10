@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '@/styles/slider.module.css'
-// import { roboto } from "@/config/fonts";
 
 interface Props {
     textLine: string;

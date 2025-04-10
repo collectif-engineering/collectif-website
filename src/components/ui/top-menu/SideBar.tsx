@@ -84,7 +84,7 @@ export const SideBar = () => {
                     <IoBriefcaseOutline 
                         size={ 20 }
                     />
-                    <span className="ml-3 text-ml">Works</span>
+                    <span className="ml-3 text-ml">Work</span>
                 </Link>
                 <Link 
                     href="#culture"

@@ -1,6 +1,9 @@
 .container {
     width: 100%;
+    height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider {
@@ -32,7 +35,10 @@
     left: 100%;
     position: absolute;
     animation: autoRun 10s linear infinite;
-    animation-delay: calc((10s / var(--quantity-items)) * (var(--position) - 1))
+    animation-delay: calc((10s / var(--quantity-items)) * (var(--position) - 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider .list .item p {
