@@ -677,6 +677,22 @@ export const portfolioData: SeedData = {
                 'brickbreaker-4.jpg',
                 'brickbreaker-5.jpg',
             ]
-        }
+        },
+         {
+            id: 34,
+            title: "Bathhouse Williamsburg - Expansion",
+            client: "Bathhouse",
+            description: "Bathhouse is a wellness destination with two locations in New York. Collectif designed the new mechanical system to serve the further retail expansion and any back-of-house spaces in its 25,000 GSF Williamsburg location. The expansion included three new heated pools, a new cold plunge pool, a new event sauna, a new banya, and a locker room expansion.
+            category: "Wellness",
+            photoCredit: "Adrian Gaut",
+            architect: "Colberg Architecture",
+            location: "New York, NY",
+            article: "https://www.forbes.com/sites/melissakravitz/2024/01/11/a-bathhouse-with-bitcoin-heated-pools-opens-in-nyc/?sh=3f0229ee773f ",
+            images: 
+            [
+                'bathhousew-1.jpg',
+                'bathhousew-2.jpg',
+                'bathhousew-3.jpg',
+                'bathhousew-4.jpg',
     ]
 }
