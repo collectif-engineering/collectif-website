@@ -678,7 +678,7 @@ export const portfolioData: SeedData = {
                 'brickbreaker-5.jpg',
             ]
         },
-         {
+        {
             id: 34,
             title: "Bathhouse Williamsburg - Expansion",
             client: "Bathhouse",
@@ -694,5 +694,7 @@ export const portfolioData: SeedData = {
                 'bathhousew-2.jpg',
                 'bathhousew-3.jpg',
                 'bathhousew-4.jpg',
+            ]
+        },
     ]
 }
