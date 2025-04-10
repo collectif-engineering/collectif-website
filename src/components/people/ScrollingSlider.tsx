@@ -17,7 +17,7 @@ const ScrollingSlider = ({
     height
   }: Props) => {
 
- 
+
     return (
       <div
         className={reverse ? styles.slider : styles.slider2}
@@ -37,7 +37,7 @@ const ScrollingSlider = ({
               style={{ '--position': index } as React.CSSProperties}
             >
               <Image
-                src={`/people/${image}`}
+                src={`/team/${image}`}
                 alt={image.replace(/\.[^/.]+$/, '')}
                 className={styles.ImageTeamScroll}
                 width={100}
@@ -52,7 +52,7 @@ const ScrollingSlider = ({
               style={{ '--position': index } as React.CSSProperties}
             >
               <Image
-                src={`/people/${image}`}
+                src={`/team/${image}`}
                 alt={image.replace(/\.[^/.]+$/, '')}
                 className={styles.ImageTeamScroll}
                 width={100}

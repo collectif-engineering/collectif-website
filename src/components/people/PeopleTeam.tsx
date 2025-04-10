@@ -4,34 +4,13 @@ import ScrollingSlider from './ScrollingSlider';
 import VideoSection from '../video-cultura/VideoSection';
 import useMobile from '@/hooks/mobile/useMobile';
 import { useEffect, useState } from 'react';
+import { People } from '@/interfaces';
 
-const PeopleTeam = () => {
+interface Props {
+  dataPeople: People[];
+	}
 
-  const team = 
-    [ 
-      'people1.jpg', 
-      'people2.jpg', 
-      'people3.jpg', 
-      'people4.jpg', 
-      'people5.jpg', 
-      'people6.jpg', 
-      'people7.jpg', 
-      'people8.jpg', 
-      'people9.jpg', 
-      'people10.jpg',
-      'people11.jpg',
-      'people12.jpg',
-      'people13.jpg',
-      'people14.jpg',
-      'people15.jpg',
-      'people16.jpg',
-      'people17.jpg',
-      'people18.jpg',
-      'people19.jpg',
-      'people20.jpg',
-      'people21.jpg',
-      'people22.jpg',
-    ];
+const PeopleTeam = ({dataPeople} : Props) => {
 
   const shuffleArray = (array: string[]) => {
     return [...array].sort(() => Math.random() - 0.5);
@@ -44,10 +23,11 @@ const PeopleTeam = () => {
   const [shuffledTeam3, setShuffledTeam3] = useState<string[]>([]);
 
   useEffect(() => {
-    setShuffledTeam1(shuffleArray(team));
-    setShuffledTeam2(shuffleArray(team));
-    setShuffledTeam3(shuffleArray(team));
+    setShuffledTeam1(shuffleArray(dataPeople[0].images));
+    setShuffledTeam2(shuffleArray(dataPeople[0].images));
+    setShuffledTeam3(shuffleArray(dataPeople[0].images));
   }, []);
+
 
   return (
     <div className={styles.container}>
