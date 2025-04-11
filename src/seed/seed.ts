@@ -679,7 +679,23 @@ export const portfolioData: SeedData = {
                 'bathhousew-2.jpg',
                 'bathhousew-3.jpg',
                 'bathhousew-4.jpg',
-            ]
+            ]  
         },
+        {
+            id: 35,
+            title: "CitizenM Hotels - Denver",
+            client: "CitizenM Hotels",
+            description: "COLLECTIF led the MEP-FP design for a series of new hotel developments across North America, delivering innovative solutions tailored to modern hospitality standards. This 109,000-square-foot ground-up hotel in Denver was meticulously designed and constructed through a design-build delivery method, optimizing collaboration and efficiency. The hotel features 267 modern guestrooms, a fully equipped fitness center, a welcoming lobby, lively bars, versatile conference rooms, and a comprehensive array of support spaces, all engineered to enhance guest experience and operational functionality.",
+            category: "Hospitality",
+            photoCredit: "",
+            architect: "",
+            location: "Denver, CO",
+            article: "",
+            images: 
+            [
+                'citizenm-denver-1.jpg',
+                'citizenm-denver-2.jpg',
+                'citizenm-denver-3.jpg',
+            ]
     ]
 }
