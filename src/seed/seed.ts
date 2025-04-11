@@ -19,13 +19,13 @@ export const portfolioData: SeedData = {
     portfolio: [
         {
             id: 1,
-            title: "CitizenM Hotels",
+            title: "CitizenM Hotels - Georgetown",
             client: "CitizenM Hotels",
-            description: "Construction Management and commissioning for a heating and ventilation remediation project in Miami, FL. COLLECTIF managed the MEP design and prepared bid packages and narratives for bids to multiple contractors. Our firm also managed the construction schedule through the two phases of the project, coordinated with the owner and controls contractor for new BMS integration of the changeover heating system, and reprogrammed custom guestroom controllers. \nOther involvements in the project include commissioning the hydronic and ventilation systems, accepting the system on behalf of the owner, and training the building operations team in using the system. The project was delivered on budget and on time to the client.",
-            category: "Construction Management",
+            description: "COLLECTIF led the MEP-FP design for a series of new hotel developments across North America, delivering innovative solutions tailored to modern hospitality standards. This 88,000-square-foot adaptive reuse project in Georgetown, Washington, DC, transforms an existing structure into a dynamic, high-end hotel. The thoughtfully designed space includes 234 well-appointed guestrooms, a state-of-the-art fitness center, an inviting lobby, vibrant bars, versatile conference rooms, and a full suite of support spaces, all engineered for efficiency and guest comfort.",
+            category: "Hospitality",
             photoCredit: "",
             architect: "",
-            location: "Miami, Florida",
+            location: "Georgetown, Washington DC",
             article: "",
             images: 
             [
@@ -33,21 +33,6 @@ export const portfolioData: SeedData = {
                 'citizenm-georgetown-2.jpg',
                 'citizenm-georgetown-3.jpg',
                 'citizenm-georgetown-4.jpg',
-                'citizenm-1.jpg',
-                'citizenm-2.jpg',
-                'citizenm-3.jpg',
-                'citizenm-4.jpg',
-                'citizenm-5.jpg',
-                'citizenm-denver-1.jpg',
-                'citizenm-denver-2.jpg',
-                'citizenm-denver-3.jpg',
-                'citizenm-miami-wc-1.jpg',
-                'citizenm-miami-wc-2.jpg',
-                'citizenm-miami-wc-3.jpg',
-                'citizenm-miami-wc-4.jpg',
-                'citizenm-sandiego-1.jpg',
-                'citizenm-sandiego-2.jpg',
-                'citizenm-sandiego-3.jpg'
             ]
         },
         {
