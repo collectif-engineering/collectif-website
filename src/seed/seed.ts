@@ -497,8 +497,7 @@ export const portfolioData: SeedData = {
             article: "",
             images: 
             [
-                'harlem-modular-1.jpg',
-                'harlem-modular-2.jpg',
+                'harlemmodular-1.jpg',
             ]
         },
         {
