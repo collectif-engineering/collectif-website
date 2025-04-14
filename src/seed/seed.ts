@@ -253,8 +253,7 @@ export const portfolioData: SeedData = {
             id: 13,
             title: "CitizenM Hotels - Miami",
             client: "CitizenM Hotels",
-            description: "Construction Management and commissioning for a heating and ventilation remediation project in Miami, FL. COLLECTIF managed the MEP design and prepared bid packages and narratives for bids to multiple contractors. Our firm also managed the construction schedule through the two phases of the project, coordinated with the owner and controls contractor for new BMS integration of the changeover heating system, and reprogrammed custom guestroom controllers. Other involvements in the project include commissioning the hydronic and ventilation systems, accepting the system on behalf of the owner, and training the building operations team in using the system. The project was delivered on budget and on time to the client.
-",
+            description: "Construction Management and commissioning for a heating and ventilation remediation project in Miami, FL. COLLECTIF managed the MEP design and prepared bid packages and narratives for bids to multiple contractors. Our firm also managed the construction schedule through the two phases of the project, coordinated with the owner and controls contractor for new BMS integration of the changeover heating system, and reprogrammed custom guestroom controllers. Other involvements in the project include commissioning the hydronic and ventilation systems, accepting the system on behalf of the owner, and training the building operations team in using the system. The project was delivered on budget and on time to the client.",
             category: "Hospitality",
             photoCredit: "",
             architect: "Gensler",
@@ -682,5 +681,6 @@ export const portfolioData: SeedData = {
                 'citizenm-denver-2.jpg',
                 'citizenm-denver-3.jpg',
             ]
+        },
     ]
 }
