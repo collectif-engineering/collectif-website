@@ -19,7 +19,7 @@ const WorkScreen = ({portfolioWorks, morePortfolioWorks}: Props) => {
   return (
     <div className={styles.container}>
         <div className={styles.backToPortfolioSection}>
-            <Link href="/#portfolio">
+            <Link href="/#work">
                 <span className={`${inter.className} ${styles.goBackText} antialiased`}>
                     Back to Portfolio
                 </span>
