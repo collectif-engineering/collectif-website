@@ -52,17 +52,17 @@ export const teamPrincipalData: SeedPrincipalTeamData = {
                 'Jonathan-2.png'
             ]
         },
-        {
-            id: 4,
-            name: "Michael",
-            surname: "Geary",
-            profession: "Principal",
-            linkedin: "https://www.linkedin.com/in/michael-g-1112813/",
-            email: 'michael@collectif.nyc',
-            description: "With over 25 years in MEP design and 5 years as an MEP Director, he excels in mechanical design, project management, and quality control. He is known for delivering cost-efficient, aesthetic, and serviceable solutions.",
-            images: [
-                'Michael-4.png'
-            ]
-        }
+        // {
+        //     id: 4,
+        //     name: "Michael",
+        //     surname: "Geary",
+        //     profession: "Principal",
+        //     linkedin: "https://www.linkedin.com/in/michael-g-1112813/",
+        //     email: 'michael@collectif.nyc',
+        //     description: "With over 25 years in MEP design and 5 years as an MEP Director, he excels in mechanical design, project management, and quality control. He is known for delivering cost-efficient, aesthetic, and serviceable solutions.",
+        //     images: [
+        //         'Michael-4.png'
+        //     ]
+        // }
     ]
 }
