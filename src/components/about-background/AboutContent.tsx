@@ -20,7 +20,7 @@ const AboutContent = ({dataPrincipalTeam, studiosData }: Props) => {
                 Our Leadership
             </h1>
             <p> 
-                Our four Principals possess over 70 years of combined experience in project engineering, management, and all phases of engineering services, including
+                Our three Partners possess decades of combined experience in project engineering, management, and all phases of engineering services, including
                 procurement, commissioning, utility coordination, and project closeout.   Our team is enhanced by staff with construction experience, which streamlines the design process by emphasizing value-engineered designs as they are
                 developed. We have a proven track record of successful collaboration with design-build teams, ensuring seamless project execution.
             </p>
