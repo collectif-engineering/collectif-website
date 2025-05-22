@@ -29,6 +29,9 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-16929754367');
+            gtag('config', 'AW-16929754367/KnJ1CJnRqsAaEP-Z3og_', {
+              'phone_conversion_number': '+1 646.610.0343'
+            });
           `}
         </Script>
       </head>
