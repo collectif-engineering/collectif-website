@@ -77,7 +77,7 @@ const ContactCard = () => {
                     connect@collectif.nyc
                 </a>
                 <p>
-                  +1 646.610.0343
+                  <a href="tel:+16466100343">+1 646.610.0343</a>
                 </p>
               </div>
               <div className={`${styles.address} ${'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'}`}>
