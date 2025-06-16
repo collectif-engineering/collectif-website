@@ -21,19 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Tag Script */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16929754367" />
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-16929754367');
-            gtag('config', 'AW-16929754367/KnJ1CJnRqsAaEP-Z3og_', {
-              'phone_conversion_number': '+1 646.610.0343'
-            });
-          `}
-        </Script>
+        <!-- Google tag (gtag.js) --> 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16929754367"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16929754367');
+        </script>
       </head>
       <body className={`${lato.className}`}>
         <TopMenu />
