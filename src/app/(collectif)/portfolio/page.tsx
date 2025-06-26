@@ -19,7 +19,9 @@ const Portfolio = () => {
 
   return (
     <div className={styles.container} id="work">
-      <InfinitScroll textLine='WORK' quantity={5} width='450px' height='100px'/>
+      <div className={ styles.stickyHeader}>   
+        <InfinitScroll textLine='WORK' quantity={5} width='450px' height='100px'/>
+      </div>
       <PortfolioFilter onCategoryChange={handleCategoryChange} selectedCategory={selectedCategory} />
       <ProductGrid dataPortfolio={filteredData} selectedCategory={selectedCategory}/>
     </div>

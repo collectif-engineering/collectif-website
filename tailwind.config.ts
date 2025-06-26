@@ -16,6 +16,11 @@ export default {
       fontSize: {
         'custom-size': 'var(--custom-font-size)',
       },
+      gap: {
+        '15': '3.75rem',
+        '20': '5rem',
+        '80': '15rem',
+      },
     },
   },
   plugins: [],

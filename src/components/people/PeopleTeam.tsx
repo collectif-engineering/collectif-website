@@ -34,7 +34,7 @@ const PeopleTeam = ({dataPeople} : Props) => {
         <ScrollingSlider teamImages={shuffledTeam1} reverse={true}  duration='10'  width={imageSize} height={imageSize}  />
         <ScrollingSlider teamImages={shuffledTeam2} reverse={false} duration='10'  width={imageSize} height={imageSize} />
         <ScrollingSlider teamImages={shuffledTeam3} reverse={true}  duration='10'  width={imageSize} height={imageSize}  />
-        <div className={`grid grid-cols-1 md:grid-cols-1 gap-4`}>
+        <div className={styles.textUnified}>
           <div className={styles.leftSideBottomSection}>
             <h1 className={styles.textTitleBottomSection}>
               UNIFYING MINDS...
@@ -45,8 +45,6 @@ const PeopleTeam = ({dataPeople} : Props) => {
               and experts, all working seamlessly to deliver
               exceptional results.
             </h2>
-          </div>
-          <div className={styles.rightSideBottomSection}>
           <span>
               We believe the best results come from teamwork.
               By blending diverse perspectives with a shared

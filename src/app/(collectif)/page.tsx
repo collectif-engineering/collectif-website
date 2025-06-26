@@ -16,7 +16,7 @@ export default function page() {
         <About />
       </div>
       <div className={styles.section2}>
-      <Portfolio />
+        <Portfolio />
       </div>
       <div className={styles.section3}> 
         <Culture />

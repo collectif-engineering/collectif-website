@@ -20,15 +20,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-       <!-- Google tag (gtag.js) --> 
-         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16929754367">
-         </Script> 
-         <Script> window.dataLayer = window.dataLayer || []; 
-           function gtag(){dataLayer.push(arguments);} 
-           gtag('js', new Date()); 
-           gtag('config', 'AW-16929754367'); 
-         </Script>
+<head>
+        {/* Google Tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16929754367"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            // Config base
+            gtag('config', 'AW-16929754367');
+
+            // Phone Conversion Snippet
+            gtag('config', 'AW-16929754367/KnJlCJnRqsAaEP-Z3og_', {
+              'phone_conversion_number': '+1 646.610.0343'
+            });
+          `}
+        </Script>
       </head>
       <body className={`${lato.className}`}>
         <TopMenu />

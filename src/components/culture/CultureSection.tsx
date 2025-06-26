@@ -12,7 +12,7 @@ const CultureSection = () => {
     <div className={styles.containerCulture}>
       <div className={styles.contentContainerCulture}>
         {/* Sección del header */}
-        <div className={`grid grid-cols-1 md:grid-cols-2 gap-4`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 ${styles.customGap}`}>
           <div className={styles.headerCultureleftBox}>
             <span className={styles.secondaryText}>
               TO COLLECTIVELY SOLVE HUMANITY’S ENGINEERING CHALLENGES AND 
@@ -31,7 +31,7 @@ const CultureSection = () => {
         </div>
 
         {/* Contenedor de las dos columnas */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className={`grid grid-cols-1 md:grid-cols-2 ${styles.customGap}`}>
           {/* Primera columna */}
           <div className={styles.firstColumn}>
             <span>

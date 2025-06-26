@@ -11,7 +11,9 @@ const studio = studiosData.studios
 const About = () => {
   return (
     <div className={ styles.container } id='studio'>
-        <InfinitScroll textLine='STUDIO' quantity={5} width='450px' height='100px'/>
+        <div className={ styles.stickyHeader}>  
+          <InfinitScroll textLine='STUDIO' quantity={5} width='450px' height='100px'/>
+        </div>
         <AboutContent 
             dataPrincipalTeam={data}
             studiosData={studio}

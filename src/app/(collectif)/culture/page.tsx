@@ -7,7 +7,9 @@ import PeopleSection from '@/components/people/PeopleSection';
 const Culture = () => {
   return (
     <div className={styles.container} id='culture'>
-        <InfinitScroll textLine='CULTURE' quantity={5} width='450px' height='100px'/>
+        <div className={ styles.stickyHeader}>  
+          <InfinitScroll textLine='CULTURE' quantity={5} width='450px' height='100px'/>
+        </div>
         <CultureSection />
         <PeopleSection />
     </div>

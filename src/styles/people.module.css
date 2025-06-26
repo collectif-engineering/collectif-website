@@ -11,11 +11,11 @@
 
 .headerSection {
   width: 100%;
-  height: 200px;
+  height: 350px;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   padding: 40px;
 }
 
@@ -76,30 +76,29 @@
     padding: 20px;
   }
 
+  .textUnified {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
   .leftSideBottomSection {
-    width: 100%;
-    height: 100%;
+    width:70%;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
     gap: 20px;
     padding: 20px;
   }
 
-  .rightSideBottomSection {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-  }
-
-  .textTitleBottomSection {
-    font-size: 2.5rem;
+ .textTitleBottomSection {
+    font-size: var(--bg-size);
     color: var(--color-collectif-pink);
     font-weight: bold;
   }
@@ -140,5 +139,8 @@
       padding: 10px;
     }
     
+    .leftSideBottomSection {
+      height: 100%;
+    }
   }
   
