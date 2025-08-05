@@ -1,8 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import styles from "@/styles/contact.module.css";
-import { FaLinkedinIn } from "react-icons/fa";
-import { IoLogoInstagram } from "react-icons/io5";
 import Image from "next/image";
 
 const ContactCard = () => {

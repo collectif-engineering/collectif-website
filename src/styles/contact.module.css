@@ -145,3 +145,36 @@
       padding: 20px;
     }
   }
+
+  @media (max-width: 768px) {
+  .firstSectionCard {
+    flex-direction: column;
+  }
+
+  .headerFirstSection {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contentFirstSection {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contactUs {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .boxContant1, .boxContant2, .boxContant3 {
+    width: 100%;
+  }
+
+  .address {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
