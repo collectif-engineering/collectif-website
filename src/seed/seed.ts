@@ -54,7 +54,7 @@ export const portfolioData: SeedData = {
         },
         {
             id: 3,
-            title: "450 W 31st Street",
+            title: "70 Mulberry Cultural Center",
             client: "Venmel, LLC",
             description: "COLLECTIF led the MEP/FP systems for the fitout of the 8th floor (7,600 GSF) within an existing building in Manhattan. The new space houses three demised corporate offices.",
             category: "Corporate",
