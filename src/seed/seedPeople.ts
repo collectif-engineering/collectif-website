@@ -22,7 +22,6 @@ export const teamPeopleData: SeedPeopleTeamData = {
                 'people24.jpg', 
                 'people25.jpg', 
                 'people26.jpg',
-                'people27.jpg',
                 'people28.jpg',
                 'people31.jpg',
                 'people33.jpg',
