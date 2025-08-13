@@ -203,17 +203,17 @@ export const portfolioData: SeedData = {
             article: "",
             images: 
             [
-                '31-street-1.jpg',
-                '31-street-2.jpg',
-                '31-street-3.jpg',
-                '31-street-4.jpg',
-                '31-street-5.jpg',
-                '31-street-6.jpg',
-                '31-street-7.jpg',
-                '31-street-8.jpg',
-                '31-street-9.jpg',
-                '31-street-10.jpg',
-                '31-street-11.jpg',
+                '31street-1.jpg',
+                '31street-2.jpg',
+                '31street-3.jpg',
+                '31street-4.jpg',
+                '31street-5.jpg',
+                '31street-6.jpg',
+                '31street-7.jpg',
+                '31street-8.jpg',
+                '31street-9.jpg',
+                '31street-10.jpg',
+                '31street-11.jpg',
             ]
         },
         {
